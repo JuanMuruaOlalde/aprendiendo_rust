@@ -1,0 +1,5 @@
+nombre   : apellidos     : nacimiento : peso_kg : altura_cm : fecha_medicion
+Pedro    : Rodrigez Pike : 23/04/1973 :   56,3  :  168,5    : 22/11/2021
+Marta    : Batiato Rueda : 21/09/1984 :   65.8  :  170,2    : 22/11/2021
+Benzirpi : Mirvento      : 25/11/1967 :  100.2  :  172      : 22/11/2021
+Luisa    : Perez Bila    : 23/07/1985 :   56.2  :  161.5    : 22/11/2021

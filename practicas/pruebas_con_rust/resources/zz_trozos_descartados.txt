@@ -1,0 +1,62 @@
+
+=================================================================================
+
+use chrono::{
+    DateTime, NaiveDate, NaiveDateTime, NaiveTime, ParseError, SecondsFormat, TimeZone, Utc,
+};
+use regex::Regex;
+
+
+struct Persona {
+    nombre: String,
+    apellidos: String,
+    nacimiento: DateTime,
+    peso_kg: f32,
+    altura_cm: f32,
+    fecha_medicion: DateTime,
+}
+
+
+fn prueba_con_una_persona() {
+    let yo = Persona {
+        nombre: String::from("Benzirpi"),
+        apellidos: String::from("Mirvento"),
+        nacimiento: Utc.with_ymd_and_hms(1985, 03, 21, 10, 38, 00).unwrap(),
+        peso_kg: 80.0,
+        altura_cm: 180.0,
+        fecha_medicion: DateTime::parse_from_rfc3339("2023-09-18T15:47:00+01:00")
+            .unwrap()
+            .with_timezone(&Utc),
+    };
+    println!();
+    println!(
+        "Hola, soy {} {}, naci el {} y pesaba {} kg el {}",
+        yo.nombre,
+        yo.apellidos,
+        yo.nacimiento.format("%Y/%m/%d"),
+        yo.peso_kg,
+        yo.fecha_medicion.to_rfc2822(),
+    );
+    println!();
+}
+
+=================================================================================
+
+                        let persona = Persona {
+                            nombre: String::from(datos[0]),
+                            apellidos: String::from(datos[1]),
+                            nacimiento: DateTime::parse_from_str(datos[2], "%d/%m/%Y")
+                                .unwrap()
+                                .with_time(NaiveTime::from_hms_opt(0, 0, 0).unwrap())
+                                .unwrap()
+                                .with_timezone(&Utc),
+                            peso_kg: datos[3].parse().unwrap(),
+                            altura_cm: datos[4].parse().unwrap(),
+                            fecha_medicion: DateTime::parse_from_str(datos[5], "%d/%m/%Y")
+                                .unwrap()
+                                .with_time(NaiveTime::from_hms_opt(0, 0, 0).unwrap())
+                                .unwrap()
+                                .with_timezone(&Utc),
+                        };
+
+=================================================================================
