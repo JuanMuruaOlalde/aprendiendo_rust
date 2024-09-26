@@ -157,7 +157,7 @@ async fn obtener_un_token_de_acceso_2ledged(
         .header("Content-Type", "application/x-www-form-urlencoded")
         .form(&[
             ("grant_type", "client_credentials"),
-            ("scope", "data:write"),
+            ("scope", "data:read data:write"),
         ])
         .send()
         .await?;
