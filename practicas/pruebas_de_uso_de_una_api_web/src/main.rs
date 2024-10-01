@@ -238,7 +238,7 @@ async fn recuperar_resultado_de_una_consulta(
     identificador_de_consulta: &str,
 ) -> Result<json::JsonValue, reqwest::Error> {
     let peticion = cliente_http
-        .post(format!("https://developer.api.autodesk.com/insights/v1/usage-queries/{identificador_de_consulta}"))
+        .get(format!("https://developer.api.autodesk.com/insights/v1/usage-queries/{identificador_de_consulta}"))
         .bearer_auth(token_de_acceso)
         .header("ADSK-PAT", token_personal)
         .header("Content-Type", "application/json");
@@ -339,7 +339,7 @@ async fn recuperar_estado_y_url_para_descarga_de_un_informe(
     identificador_de_informe: &str,
 ) -> Result<json::JsonValue, reqwest::Error> {
     let peticion = cliente_http
-        .post(format!(
+        .get(format!(
             "https://developer.api.autodesk.com/insights/v1/exports/{identificador_de_informe}"
         ))
         .bearer_auth(token_de_acceso)
