@@ -8,7 +8,7 @@ Two books are key:
 
 - [The Cargo Book - The Rust Package Manager](https://doc.rust-lang.org/cargo/index.html)
 
-It is very paintful to work with Rust without mastering three main concepts:
+It is very paintful to try to work with Rust without mastering three main concepts:
 
 - [Understanding Ownership - The Rust Programming Language](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
 
