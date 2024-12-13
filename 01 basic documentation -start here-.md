@@ -8,7 +8,7 @@ Two books are key:
 
 - [The Cargo Book - The Rust Package Manager](https://doc.rust-lang.org/cargo/index.html)
 
-It is very paintful to try to work with Rust without mastering three main concepts:
+It is very paintful to try any work without mastering these three main concepts:
 
 - [Understanding Ownership - The Rust Programming Language](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
 
@@ -16,7 +16,7 @@ It is very paintful to try to work with Rust without mastering three main concep
 
 - [The `Result` Enum and Error Handling in Rust](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
 
-As in any other language, libraries are very important:
+As in any other language, it is very difficult to do anything serious without using libraries:
 
 - [Rust Crate List - Blessed.rs - an unofficial guide to the Rust ecosystem](https://blessed.rs/crates)
 
@@ -24,7 +24,13 @@ As in any other language, libraries are very important:
 
 - [Rust std library](https://doc.rust-lang.org/std/)
 
-## Hands-on learning, to start working with Rust
+## Hands-on learning
+
+If you want to start practicing without installing anything, you can try Rust online with (https://play.rust-lang.org/). 
+
+If you want to start serious, install `rustup` (https://doc.rust-lang.org/book/ch01-01-installation.html) and use `cargo` (https://doc.rust-lang.org/cargo/getting-started/first-steps.html). If you are using [Visual Studio Code](https://code.visualstudio.com/download) as IDE, you can use it with the [Rust.analyzer extension](https://rust-analyzer.github.io)
+
+Some resources and tutorials:
 
 [Working the Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) - Let's Get Rusty - YouTube
 
@@ -45,7 +51,9 @@ A peer-reviewed collection of articles-talks-repos which teach concise, idiomati
 
 [google-comprehensive-rust-](https://github.com/google/comprehensive-rust) This is the Rust course used by the Android team at Google. The course covers all aspects of Rust, from basic syntax to generics and error handling. It also includes deep dives on Android, Chromium, bare-metal, and concurrency. [Syllabus](https://google.github.io/comprehensive-rust/)
 
-### If you want to start with a GUI
+### If you want to program GUI (Graphic User Interface) based programs instead of CLI (Command Line Interface) based ones
+
+Here are some sugestions:
 
 [Are we GUI yet](https://areweguiyet.com/)
 
@@ -64,7 +72,7 @@ A peer-reviewed collection of articles-talks-repos which teach concise, idiomati
 [Tauri - documentation](https://tauri.app/start/)
 
 
-## Some additional material
+## Some additional material to read/view
 
 [Rust Is Easy - just read the compiler error messages  ;-) - YouTube](https://www.youtube.com/watch?v=CJtvnepMVAU)
 
