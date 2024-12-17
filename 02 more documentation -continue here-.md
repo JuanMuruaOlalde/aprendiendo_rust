@@ -8,6 +8,8 @@ An article in The Rust Programming Language Forum
 
 [Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html)
 
+[Iterators in Rust](https://dev.to/francescoxx/iterators-in-rust-fm)
+
 [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 
 [Cargo Workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html)

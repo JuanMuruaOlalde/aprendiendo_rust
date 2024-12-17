@@ -76,6 +76,8 @@ Here are some sugestions:
 
 [Rust Is Easy - just read the compiler error messages  ;-) - YouTube](https://www.youtube.com/watch?v=CJtvnepMVAU)
 
+[Getting familiar with Rust's syntax - YouTube](https://www.youtube.com/watch?v=AuzoABH7fRA)
+
 [Simple error handling in Rust - YouTube](https://www.youtube.com/watch?v=g6WUHcyjsfc)
 
 [The magic of Rust's type system - Youtube](https://www.youtube.com/watch?v=NDIU1GSBrVI)
