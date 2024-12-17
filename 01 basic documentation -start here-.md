@@ -51,7 +51,7 @@ A peer-reviewed collection of articles-talks-repos which teach concise, idiomati
 
 [google-comprehensive-rust-](https://github.com/google/comprehensive-rust) This is the Rust course used by the Android team at Google. The course covers all aspects of Rust, from basic syntax to generics and error handling. It also includes deep dives on Android, Chromium, bare-metal, and concurrency. [Syllabus](https://google.github.io/comprehensive-rust/)
 
-### If you want to program GUI (Graphic User Interface) based programs instead of CLI (Command Line Interface) based ones
+### If you like to program GUI (Graphic User Interface) based programs instead of CLI (Command Line Interface) based ones
 
 Here are some sugestions:
 
@@ -63,13 +63,12 @@ Here are some sugestions:
 
 [egui - Getting started with egui in Rust](https://whoisryosuke.com/blog/2023/getting-started-with-egui-in-rust)
 
+[egui - Some sample code - Demo](https://www.egui.rs/#demo)
+
 [iced - A cross-platform GUI library for Rust, inspired by Elm - documentation](https://docs.rs/iced/latest/iced/)
 
 [iced – A cross-platform GUI library for Rust, inspired by Elm - Github repository](https://github.com/iced-rs/iced)
 
-[Tauri - create small, fast, secure, cross-platform applications](https://tauri.app/)
-
-[Tauri - documentation](https://tauri.app/start/)
 
 
 ## Some additional material to read/view
