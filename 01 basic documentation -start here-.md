@@ -81,6 +81,8 @@ Here are some sugestions:
 
 [The magic of Rust's type system - Youtube](https://www.youtube.com/watch?v=NDIU1GSBrVI)
 
+[Learning Rust: Memory, Ownership and Borrowing - Youtube](https://www.youtube.com/watch?v=8M0QfLUDaaA)
+
 [Why Rust?](https://rerun.io/blog/why-rust)
 
 [Rust stole C++'s best features - YouTube](https://www.youtube.com/watch?v=sjsnuirLyKM)
